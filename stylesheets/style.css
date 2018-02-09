@@ -125,7 +125,7 @@ header .owl-carousel {
 header .owl-carousel .owl-nav .custom1 {
   position: absolute;
   top: 0%;
-  left: 1%;
+  left: 0%;
   width: 32px;
   height: 32px;
   background-image: url(../images/back.png);
@@ -141,7 +141,7 @@ header .owl-carousel .owl-nav .custom1 {
 header .owl-carousel .owl-nav .custom2 {
   position: absolute;
   top: 0%;
-  right: 1%;
+  right: 0%;
   background-image: url("../images/next.png");
   width: 32;
   height: 32px;
