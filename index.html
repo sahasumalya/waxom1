@@ -1,11 +1,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     	<link rel = "stylesheet" type = "text/css" href = "stylesheets/style.css" />
     	<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
 
     	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
   		<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
@@ -226,42 +226,54 @@
 						</div>
 					</div>
 					<div class="row row4">
-       					 <div class="col-md-4 col-sm-6 col-xs-12 text-centre ">
-                    <img  class="img-responsive pic" src="images/photo1.png">
+       					 <div class="col-md-4 col-sm-6 col-xs-12 text-centre picy">
+                    <img  class="img-responsive pic" id="suma1"  src="images/photo1.png">
                     <div class="triangle1"></div>
+                    <button class="zoom" onclick="zoomla1()"><i class=" fa fa-search"></i></button>
+                    <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
          				    <p class="pisi1">Claritus Etium Processus</p>
          				    <p class="pisi"> Photography Nature</p>
         				 </div>
-        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre ">
-          					<img  class="img-responsive pic" src="images/photo2.png">
+        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre picy ">
+          					<img  class="img-responsive pic" id="suma2"   src="images/photo2.png">
                     <div class="triangle"></div>
+                    <button class="zoom" onclick="zoomla2()"><i class=" fa fa-search"></i></button>
+                    <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
           					<p class="pisi1">Quam Nutamus Farum</p>
           					<p class="pisi">Graphic Design,Mock Up</p>
         				</div>
-        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre ">
-         					  <img  class="img-responsive pic" src="images/photo3.png">
+        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre picy">
+         					  <img  class="img-responsive pic" id="suma3"  src="images/photo3.png">
                     <div class="triangle"></div>
+                    <button class="zoom" onclick="zoomla3()"><i class=" fa fa-search"></i></button>
+                    <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
           					<p class="pisi1">Quam Nutamus Farum</p>
           					<p class="pisi">Graphic Design,Mock Up</p>
         				</div>
       		
       			 
-        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre ">
-          					<img class="img-responsive pic" src="images/photo4.png">
+        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre picy">
+          					<img class="img-responsive pic" id="suma4"  src="images/photo4.png">
                     <div class="triangle"></div>
+                    <button class="zoom" onclick="zoomla4()"><i class=" fa fa-search"></i></button>
+                    <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
           					<p class="pisi1">Quam Nutamus Farum</p>
           					<p class="pisi">Graphic Design,Mock Up</p>
         				</div>
-        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre pic">
-         					<img  class="img-responsive pic" src="images/photo5.png">
+        				<div class="col-md-4 col-sm-6 col-xs-12 text-centre picy">
+         					<img  class="img-responsive pic" id="suma5"  src="images/photo5.png">
                   <div class="triangle"></div>
+                  <button class="zoom" onclick="zoomla5()"><i class=" fa fa-search"></i></button>
+                  <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
          					<p class="pisi1">Quam Nutamus Farum</p>
           					<p class="pisi">Graphic Design,Mock Up</p>
         					</div>
-        				<div class="col-md-4 col-sm-6  col-xs-12 text-centre pic">
+        				<div class="col-md-4 col-sm-6  col-xs-12 text-centre picy">
 
-          					<img  class="img-responsive pic" src="images/photo6.png">
+          					<img  class="img-responsive pic" id="suma6"  src="images/photo6.png">
                     <div class="triangle"></div>
+                    <button class="zoom" onclick="zoomla6()"><i class=" fa fa-search"></i></button>
+                    <button onclick="location.href='google.com'" class="lnk"><i class=" fa fa-link"></i></button>
           					<p class="pisi1 ">Quam Nutamus Farum</p>
          				    <p class="pisi ">Graphic Design,Mock Up</p>
         				</div>
@@ -294,8 +306,8 @@
         <section class="phone">
         	<div class="container">
         			<div class="row row1">
-        				<div class="col-md-4  col-sm-12 col-xs-12 text-center img-center">
-        					<img class=" pn" src="images/iphone.png">
+        				<div class="col-md-3 col-md-offset-2  col-sm-12 col-xs-12 text-right ">
+        					<img class=" img-responsive pn" src="images/iphone.png">
         				</div>
                  <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12 text-left">
         					 <p class="exel">Excellent for Mobile Devices</p>
@@ -318,34 +330,34 @@
         			<div class="row row1">
         				<ul class="likes">
                   <li>
-                    <img class="icon1 center-block" src="images/icon1.png">
+                    <img class="icon1 img-responsive center-block" src="images/icon1.png">
                     <p class="pr">3587</p>
                     <p class="pr1 ">SATISFIED CLIENTS</p>
                     <div class="dash"></div>
                   </li>
                   <li>
-                    <img class="icon1 center-block" src="images/icon2.png">
+                    <img class="icon1 img-responsive center-block" src="images/icon2.png">
                     <p class="pr">205</p>
                     <p class="pr1">CUPS OF COFFEE</p>
                     <div class="dash"></div>
 
                   </li>
                   <li>
-                      <img class="icon1 center-block" src="images/icon3.png">
+                      <img class="icon1 img-responsive center-block" src="images/icon3.png">
                       <p class="pr">2500</p>
                       <p class="pr1">BLOG POSTS</p>
                       <div class="dash"></div>
 
                   </li>
                   <li>
-                     <img class="icon1 center-block" src="images/icon4.png">
+                     <img class="icon1 img-responsive center-block" src="images/icon4.png">
                      <p class="pr">873</p>
                      <p class="pr1">LIKES</p>
                      <div class="dash"></div>
 
                   </li>
                   <li>
-                    <img class="icon1 center-block" src="images/icon5.png">
+                    <img class="icon1 img-responsive center-block" src="images/icon5.png">
                     <p class="pr">900</p>
                     <p class="pr1">WE LAUNCHED</p>
                     <div class="dash"></div>
@@ -371,7 +383,6 @@
         </section>
         <section class="animate">
         	<div class="container">
-        		<div class="row row1">
         			<div class="slic">
         				<div class="slicitem">
         					<div class="dat">
@@ -382,7 +393,7 @@
         					<p class="txt">Lorem ipsum dolor sit amet</p>
         					<p class="sub"> Claritus est etiam dynamicus, qu<br>i sequitur mutationem consuetudium.</p>
                   <p class="rm">Read More</p>
-                  <div class="arr"></div>
+                  
 
         				</div>
         				<div class="slicitem">
@@ -395,7 +406,6 @@
         					<p class="txt">Lorem ipsum dolor sit amet</p>
         					<p class="sub"> Claritus est etiam dynamicus, qu<br>i sequitur mutationem consuetudium.</p>
                   <p class="rm">Read More</p>
-                  <div class="arr"></div>
         				</div>
         				<div class="slicitem">
                   <div class="dat">
@@ -406,7 +416,6 @@
         					<p class="txt">Lorem ipsum dolor sit amet</p>
         					<p class="sub"> Claritus est etiam dynamicus, qu<br>i sequitur mutationem consuetudium.</p>
                   <p class="rm">Read More</p>
-                  <div class="arr"></div>
         				</div>
         				<div class="slicitem">
                   <div class="dat">
@@ -418,11 +427,11 @@
         					<p class="txt">Lorem ipsum dolor sit amet</p>
         					<p class="sub"> Claritus est etiam dynamicus, qu<br>i sequitur mutationem consuetudium.</p>
                   <p class="rm">Read More </p>
-                  <div class="arr"></div>
+                  
                   
         				</div>
         			</div>
-        		</div>
+        		
         	</div>
         </section>
         <section class="log">
@@ -515,9 +524,9 @@
             
           </div>
         </section>
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="libraries/bootstrap/js/bootstrap.js"></script>
+	
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="libraries/bootstrap/js/bootstrap.js"></script>
 	<script src="slick-master/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(document).on('ready', function() {
@@ -638,6 +647,7 @@ function scrollWin1(){
     
   </script>
  <script>
+ 
  function fun1()
  {
   document.getElementById("suma1").src="images/photo2.png";
@@ -683,6 +693,96 @@ function scrollWin1(){
   document.getElementById("suma5").src="images/photo4.png";
   document.getElementById("suma6").src="images/photo5.png";
  }
+ 
+ </script>
+ <script>
+ var count1=0;
+ var count2=0;
+ var count3=0;
+ var count4=0;
+ var count5=0;
+ var count6=0;
+ function zoomla1(){
+       
+        var myImg = document.getElementById("suma1");
+        count1++;
+        if(count1%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+
+       
+    
+    }
+  function zoomla2(){
+        var myImg = document.getElementById("suma2");
+        count2++;
+        if(count2%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+       
+    
+    }
+    function zoomla3(){
+        var myImg = document.getElementById("suma3");
+        count3++;
+        if(count3%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+       
+    
+    }
+    function zoomla4(){
+        var myImg = document.getElementById("suma4");
+        count4++;
+        if(count4%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+       
+    
+    }
+    function zoomla5(){
+        var myImg = document.getElementById("suma5");
+        count5++;
+        if(count5%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+       
+    
+    }
+    function zoomla6(){
+        var myImg = document.getElementById("suma6");
+        count6++;
+        if(count6%2==1)
+
+        myImg.style.transform="scale(1.5)";
+        else
+        {
+          myImg.style.transform="scale(1)";
+        }
+       
+    
+    }
+
  </script>
 
 	</body>
