@@ -189,7 +189,7 @@ height: 32px;
 }
 .item2{
   height:100%;
-  background-image:url("../images/photo1.png");
+  background-image:url("../images/slide2.jpeg");
   background-size:cover;
   background-position:center;
   max-width: 100%;
@@ -198,7 +198,7 @@ height: 32px;
 }
 .item3{
   height:100%;
-  background-image:url("../images/photo2.png");
+  background-image:url("../images/slide3.jpeg");
   background-size:cover;
   background-position:center;
   max-width: 100%;
@@ -207,7 +207,7 @@ height: 32px;
 }
 .item4{
   height:100%;
-  background-image:url("../images/left.png");
+  background-image:url("../images/slide4.jpg");
   background-size:cover;
   background-position:center;
   max-width: 100%;
@@ -216,7 +216,7 @@ height: 32px;
 }
 .item5{
   height:100%;
-  background-image:url("../images/right.png");
+  background-image:url("../images/slide5.jpeg");
   background-size:cover;
   background-position:center;
   max-width: 100%;
@@ -561,37 +561,46 @@ margin:auto;
 .triangle,.triangle1{
 position:absolute;
 left:10%;
-top:80%;
+top:76%;
 width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right:10px solid transparent;
 	border-bottom: 9px solid white;
 }
-@media only screen and (max-height: 600px) {
+@media only screen and (max-width: 768px) {
     .triangle,.triangle1{
     	
 position:absolute;
 left:10%;
-top:65%;
+top:75%;
     }
 	}
-@media only screen and (max-height: 354px) {
+  @media only screen and (max-width: 425px) {
     .triangle,.triangle1{
-    	
+      
 position:absolute;
 left:10%;
-top:60%;
+top:76.5%;
     }
-	}
-@media only screen and (max-width: 110px) {
-    .triangle1{
-    	
+  }
+@media only screen and (max-width: 375px) {
+    .triangle,.triangle1{
+      
 position:absolute;
 left:10%;
-top:50%;
+top:75%;
     }
-	}
+  }
+  @media only screen and (max-width: 325px) {
+    .triangle,.triangle1{
+      
+position:absolute;
+left:10%;
+top:72%;
+    }
+  }
+
 .lis{
   
 }
@@ -608,6 +617,13 @@ background-color:transparent;
 border-radius: 3px;
 border:0.5px solid #efefef;
 }
+ @media only screen and (max-width: 425px) {
+    .but{
+      width:100%;
+
+    }
+  }
+
 .buti
 {
   border-radius: 3px;
@@ -751,6 +767,7 @@ padding-left:1em;
   position:relative;
   margin:auto;
   z-index:2;
+
 }
 .left{
   position:absolute;
