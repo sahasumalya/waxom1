@@ -308,6 +308,7 @@ p{
 .get{
 	border-radius: 3px;
 background-color:  #998675;
+border:0.5px solid transparent;
 width: 170px;
 height: 53px;
 font-family: Raleway;
@@ -347,12 +348,18 @@ height: 3px;
 margin:auto;
 }
 .overlay:hover{
-  #dash1,.web,.ic{
+  .web,.ic{
     color:  #c7b299;
+  }
+  #dash1{
+    background-color:#c7b299;
   }
 }
 .pen{
   margin:auto;
+}
+.padm{
+  padding-bottom:2em;
 }
 }
 .waxom{
@@ -437,6 +444,7 @@ background:transparent;
 	}
 button{
 border-radius: 3px;
+border:0.5px solid transparent;
 background-color:  #998675;
 width: 170px;
 height: 50px;
@@ -509,6 +517,9 @@ text-align: center;
   background-color:transparent;
   border:0.02px solid transparent;
   visibility:hidden;
+}
+.picy{
+  padding-bottom:1em;
 }
 .picy:hover{
   .zoom,.lnk{
@@ -595,12 +606,12 @@ padding-left:0.5em;
 padding-right:0.5em;
 background-color:transparent;
 border-radius: 3px;
-border-color:#efefef;
-border-size:0.05px;
+border:0.5px solid #efefef;
 }
 .buti
 {
   border-radius: 3px;
+  border:0.5px solid #efefef;
 background-color:  #998675;
 width: 170px;
 height: 50px;
